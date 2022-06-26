@@ -1,0 +1,12 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: /path/together/Train/Month/Month_all_e15.txt
+val: /path/together/Train/eval/images
+test: /path/together/Train/eval/images
+
+# number of classes
+nc: 4
+
+# class names
+names: ['Human', 'Bicycle', 'Motorcycle', 'Vehicle']
+
+

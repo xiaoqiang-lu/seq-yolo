@@ -1,0 +1,12 @@
+# Just change the test dir to you own, others are not used
+train: /path/together/Train/Day/train/split/labeled/train/train.txt
+val: /path/together/Valid/split/Jun/images
+test: /path/together/Test/split/Jun/images
+
+# number of classes
+nc: 4
+
+# class names
+names: ['Human', 'Bicycle', 'Motorcycle', 'Vehicle']
+
+

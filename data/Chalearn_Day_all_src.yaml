@@ -1,0 +1,12 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: /root/lxq/ECCV2022/Chalearn/together/Train/Day/train/src/all_e10.txt  # 118k images
+val: /root/lxq/ECCV2022/Chalearn/together/Train/eval/images  # 5k images
+test: /root/lxq/ECCV2022/Chalearn/together/Valid/all/images  # 20k images for submission to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 4
+
+# class names
+names: ['Human', 'Bicycle', 'Motorcycle', 'Vehicle']
+
+
